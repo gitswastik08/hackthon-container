@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  #main {
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+  }
+  #page0 {
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+  }
+  #page1 {
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+  }
+  #page2 {
+      /* position: relative; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #546E7A;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+  }
+  #page3{width: 100%;
+  height: 100%;
+  background-color: #546E7A;
+  }
+  
+  #page1 {
+    position: relative;
+  }
+  
+  #page1 h1 {
+    line-height: 15.8vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 8%;
+    /* z-index: 3; */
+    color: #161616;
+    font-size: 18.5vw;
+    font-family: magistral;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.809);
+    /* position: fixed; */
+  }
+  #container {
+    width: 20vw;
+    position: absolute;
+    left: 40%;
+    top: 41.3%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 8px 16px black;
+  }
+  #crain {
+    height: 94vh;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+  }
+  .textanim{
+      width: 60vw;
+      font-family: magistral;
+      color: aliceblue;
+      font-size: 7vw;
+      font-weight:900;
+      text-align: center;
+  
+  }
+  #text{
+      width: 100%;
+      display: flex;
+      /* align-items:center; */
+      flex-direction: column;
+      position: relative;
+  }
+  #textanim1,#textanim3{
+      margin-left: 50vw;
+  }
+  #team{
+      width: 15vw;
+      height: 26vh;
+      border-radius: 50%;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+  }
+  
+  #team p{
+      font-family: magistral;
+      color: #fff;
+      font-size: 2vw;
+      font-weight: 600;
+  }
+  
+  
+  
